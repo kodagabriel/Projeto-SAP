@@ -1,0 +1,5 @@
+# Ignore all with exe
+*.exe
+
+# Ignore all with apk
+*.apk
