@@ -1,0 +1,108 @@
+.up-font-size:hover, .down-font-size:hover {
+    cursor: pointer;
+}
+
+.separador{
+	border:1px dotted grey;
+}
+
+#team .card {
+    height: 300px;
+}
+
+#card1:hover{
+	cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+    color: #64398E;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  margin-bottom: 2%;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #61BDA4;
+}
+
+.btn-secondary {
+  background-color: #2C68B1 !important;
+}
+
+.btn-tertiary {
+  background-color: #64398E !important;
+  color: white !important;
+}
+
+.btn-nice {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  background: -webkit-linear-gradient(right, #61BDA4, #2C68B1);
+  background: linear-gradient(right, #61BDA4, #2C68B1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-nice:hover, .btn-nice:focus, .btn-nice:active, .btn-nice:visited {
+  color: #fff;
+  background-image: linear-gradient(to right, #2C68B1, #64398E);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: white;
+  color: #64398E;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background-color: white !important;
+  color: #64398E;
+}
+
+.btn-secondary:active, .btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.btn-tertiary:hover, .btn-tertiary:focus, .btn-tertiary:active {
+  background-color: white !important;
+  color: #64398E !important;
+}
+
+.btn-tertiary:active, .btn-tertiary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
+::selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
